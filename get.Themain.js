@@ -107,3 +107,5 @@ self.uhtml = function(e) { "use strict"; var t = function(e) { return { get: fun
     D = W("svg"); return e.Hole = $, e.html = z, e.render = function(e, t) { var n = "function" == typeof t ? t() : t,
       r = B.get(e) || B.set(e, { stack: [], entry: null, wire: null }),
       a = n instanceof $ ? S(r, n) : n; return a !== r.wire && (r.wire = a, e.textContent = "", e.appendChild(a.valueOf())), e }, e.svg = D, e }({});
+
+console.info('http://theproject.c1.biz');
